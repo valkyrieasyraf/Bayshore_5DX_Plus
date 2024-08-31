@@ -11,6 +11,7 @@ this repo is based on the original repo (https://github.com/ProjectAsakura/Baysh
  - Japan Challenge
  - Story Mode Chapter 60
  - Car Livery , Decal
+ - Maxi Coin
  
  ## What is not working 
  - Transfer from 5 , 5DX
