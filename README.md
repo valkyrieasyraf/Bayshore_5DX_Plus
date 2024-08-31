@@ -13,7 +13,7 @@ this repo is based on the original repo (https://github.com/ProjectAsakura/Baysh
  - Car Livery , Decal
  
  ## What is not working 
- - Transfer from 6
+ - Transfer from 5 , 5DX
 
 ## Credits
 This software is part of [Project Asakura](https://github.com/ProjectAsakura).
