@@ -1,4 +1,4 @@
-// Bayshore - a Wangan Midnight Maximum Tune 6 private server.
+// Bayshore - a Wangan Midnight Maximum Tune 5DX+ private server.
 // Made with love by Luna, and part of Project Asakura.
 
 import express, { Router } from 'express';
