@@ -6,7 +6,7 @@ Wangan Midnight Maximum Tune 5DX+ server reimplementation written in TypeScript
 this repo is based on the original repo (https://github.com/ProjectAsakura/Bayshore)
 
 ## What is working
- - Same like 5
+ - Same like 5 , 5DX
  - Ghost Trophies Saving
  - Japan Challenge
  - Story Mode Chapter 60
