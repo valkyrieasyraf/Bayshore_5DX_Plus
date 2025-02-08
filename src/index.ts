@@ -1,4 +1,4 @@
-// Bayshore - a Wangan Midnight Maximum Tune 5DX+ private server.
+// Bayshore - a Wangan Midnight Maximum Tune 6 private server.
 // Made with love by Luna, and part of Project Asakura.
 
 import express, { Router } from 'express';
@@ -13,7 +13,7 @@ import { Config } from './config';
 import process from 'process';
 import * as Sentry from '@sentry/node';
 import * as Tracing from '@sentry/tracing';
-import * as common from './util/common';
+import * as common from './modules/util/common';
 
 import * as dotenv from "dotenv";
 dotenv.config({path: __dirname + '/.env'});
@@ -36,8 +36,7 @@ const muchaApp = express();
 const allnetApp = express();
 
 app.use(bodyParser.raw({
-    type: '*/*',
-    limit: '50mb' // idk.. i got PayloadTooLargeError: request entity too large (adding this solve the problem)
+    type: '*/*'
 }));
 
 let useSentry = !!Config.getConfig().sentryDsn;
