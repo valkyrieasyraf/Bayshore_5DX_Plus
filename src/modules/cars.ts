@@ -170,6 +170,9 @@ export default class CarModule extends Module {
 				regionId: randomRegionId,
 				lastPlayedAt: date,
 				lastPlayedPlaceId: 1, // Server Default
+
+				shopPoint : 100000,
+				shopGrade : 100000,
 			};
 			
 			// Additional car values (for basic / full tune)
