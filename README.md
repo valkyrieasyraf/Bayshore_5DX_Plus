@@ -1,3 +1,5 @@
+### Warning: Bayshore 5DX+ is a TEST VERSION. Not Yet Complete. But it will have to be fixed in the future by Shiroi Kitsu.
+
 ### THIS PROJECT IS CURRENTLY UNSUPPORTED. DO NOT MESSAGE ANYONE FOR HELP
 
 # Bayshore 5DX+
@@ -12,7 +14,7 @@ this repo is based on the original repo (https://github.com/ProjectAsakura/Baysh
  - Online Ghost Versus Battle (Send me by **skap** coding by **daiz**)
  - Discarded Vehicle Card to Full Tune Ticket 600hp to 830hp
  
- ## What is not working (Some parts must wait to be fixed in the future by shiroikitsu8.)
+ ## What is not working (Some parts must wait to be fixed in the future by Shiroi Kitsu.)
  - Transfer from 5 , 5DX
  - Car Livery , Decal
  - Maxi Coin
