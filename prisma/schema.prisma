@@ -131,8 +131,8 @@ model Car {
 
     // This is more data about the car
     tuningPoint         Int                 @default(0)
-    shopPoint           Int                 @default(0)
-    shopGrade           Int                 @default(0)
+    shopPoint           Int                 @default(100000)
+    shopGrade           Int                 @default(100000)
     odometer            Int                 @default(0)
     playCount           Int                 @default(0)
     earnedCustomColor   Boolean             @default(false)

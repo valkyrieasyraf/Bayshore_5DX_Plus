@@ -49,7 +49,8 @@ export default class UserModule extends Module {
 					numOfOwnedCars: Number(0),
 					cars: [],
 
-					shopGrade: Number(0),
+					shopPoint: Number(100000),
+					shopGrade: Number(100000),
 					maxiGold: Number(0),
 					totalMaxiGold: Number(0),
 					carCoupon: Number(0),
@@ -66,7 +67,8 @@ export default class UserModule extends Module {
 						error: wm.wm5.protobuf.ErrorCode.ERR_ID_BANNED,
 						numOfOwnedCars: Number(0),
 
-						shopGrade: Number(0),
+						shopPoint: Number(100000),
+						shopGrade: Number(100000),
 						maxiGold: Number(0),
 						totalMaxiGold: Number(0),
 						carCoupon: Number(0),
