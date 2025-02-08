@@ -9,7 +9,7 @@ this repo is based on the original repo (https://github.com/ProjectAsakura/Baysh
  - Same like 5 , 5DX
  - Story Mode Chapter 60 + Get BGM and Meter
  - Time Attack 
- - Play Ghost Battle (Send me by **skap** coding by **daiz**)
+ - Online Ghost Versus Battle (Send me by **skap** coding by **daiz**)
  - Discarded Vehicle Card to Full Tune Ticket 600hp to 830hp
  
  ## What is not working (Some parts must wait to be fixed in the future by shiroikitsu8.)
