@@ -112,7 +112,7 @@ export default class CarModule extends Module {
 
 			// 0: Stock Tune
 			// 1: Basic Tune (600 HP)
-			// 2: Fully Tuned (840 HP)
+			// 2: Fully Tuned (830 HP)
 			let tune = 0;
 
 			
@@ -186,19 +186,19 @@ export default class CarModule extends Module {
 				case 1: // Basic Tune
 
 					// Updated default values
-					carInsert.level = 2; // C8
-					carInsert.tunePower = 10; // 600 HP
-					carInsert.tuneHandling = 10; // 600 HP
+					carInsert.level = 7; // C8
+					carInsert.tunePower = 16; // 600 HP
+					carInsert.tuneHandling = 16; // 600 HP
 	
 					// Additional basic tune values
 					additionalInsert = {
-						ghostLevel: 4,
+						ghostLevel: 9,
 						stClearBits: 0,
 						stLoseBits: 0,
-						stClearCount: 20,
-						stClearDivCount: 1,
-						stConsecutiveWins: 20,
-						stConsecutiveWinsMax: 20
+						stClearCount: 60,
+						stClearDivCount: 3,
+						stConsecutiveWins: 60,
+						stConsecutiveWinsMax: 60
 					};
 					break;
 
