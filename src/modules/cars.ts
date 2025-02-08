@@ -113,7 +113,7 @@ export default class CarModule extends Module {
 			// 0: Stock Tune
 			// 1: Basic Tune (600 HP)
 			// 2: Fully Tuned (830 HP)
-			let tune = 0;
+			let tune = 2;
 
 			
 			// User item not used, but car has 600 HP by default
@@ -186,9 +186,9 @@ export default class CarModule extends Module {
 				case 1: // Basic Tune
 
 					// Updated default values
-					carInsert.level = 7; // C8
-					carInsert.tunePower = 16; // 600 HP
-					carInsert.tuneHandling = 16; // 600 HP
+					carInsert.level = 7; // C4 (The bomb has been planted)
+					carInsert.tunePower = 16; // 720 HP
+					carInsert.tuneHandling = 16; // 720 HP
 	
 					// Additional basic tune values
 					additionalInsert = {
