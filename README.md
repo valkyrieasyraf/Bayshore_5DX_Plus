@@ -19,6 +19,8 @@ this repo is based on the original repo (https://github.com/ProjectAsakura/Baysh
  - Ghost Trophies
  - Japan Challenge
  - Venue Crown
+ - Online Champion Match (OCM)
+ - VS Other Region Ghost (VSORG)
   
 ## Credits
 This software is part of [Project Asakura](https://github.com/ProjectAsakura).
