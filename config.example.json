@@ -6,8 +6,9 @@
     "country": "JPN",
     "regionName": "JPN",
     "serverIp": "127.0.0.1",
+    "notices": ["Welcome to Bayshore WMMT5DX PLUS"],
     "gameOptions": {
-        "grantFullTuneTicketToNewUsers": 5, 
+        "grantFullTuneTicketToNewUsers": 9, 
         "giftCarsFullyTuned": 0, 
         "scratchEnabled": 1, 
         "scratchType": 0, 
