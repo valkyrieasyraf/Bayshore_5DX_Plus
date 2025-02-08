@@ -18,7 +18,7 @@ this repo is based on the original repo (https://github.com/ProjectAsakura/Baysh
  - Maxi Coin
  - Ghost Trophies
  - Japan Challenge
- - Venue Crown
+ - Venue Crown (Crown Battle)
  - Online Champion Match (OCM)
  - VS Other Region Ghost (VSORG)
   
