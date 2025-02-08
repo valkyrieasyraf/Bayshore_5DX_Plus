@@ -12,12 +12,13 @@ this repo is based on the original repo (https://github.com/ProjectAsakura/Baysh
  - Play Ghost Battle (Send me by **skap** coding by **daiz**)
  - Discarded Vehicle Card to Full Tune Ticket 600hp to 830hp
  
- ## What is not working (Some parts must wait to be fixed in the future by kitsu.)
+ ## What is not working (Some parts must wait to be fixed in the future by shiroikitsu8.)
  - Transfer from 5 , 5DX
  - Car Livery , Decal
  - Maxi Coin
  - Ghost Trophies
  - Japan Challenge
+ - Venue Crown
   
 ## Credits
 This software is part of [Project Asakura](https://github.com/ProjectAsakura).
