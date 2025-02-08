@@ -7,15 +7,18 @@ this repo is based on the original repo (https://github.com/ProjectAsakura/Baysh
 
 ## What is working
  - Same like 5 , 5DX
- - Ghost Trophies Saving
- - Japan Challenge
- - Story Mode Chapter 60
+ - Story Mode Chapter 60 + Get BGM and Meter
+ - Time Attack 
+ - Play Ghost Battle (Send me by **skap** coding by **daiz**)
+ - Discarded Vehicle Card to Full Tune Ticket 600hp to 830hp
+ 
+ ## What is not working (Some parts must wait to be fixed in the future by kitsu.)
+ - Transfer from 5 , 5DX
  - Car Livery , Decal
  - Maxi Coin
- 
- ## What is not working 
- - Transfer from 5 , 5DX
-
+ - Ghost Trophies
+ - Japan Challenge
+  
 ## Credits
 This software is part of [Project Asakura](https://github.com/ProjectAsakura).
 
