@@ -15,7 +15,8 @@ export default class UserModule extends Module {
 
         // Load user data when entering the game or after tapping the bannapass card
 		app.post('/method/load_user', async (req, res) => {
-
+		    console.log(`User IP Address: ${req.ip}`); 
+			
             // Get the request body for the load user request
 			let body = wm.wm5.protobuf.LoadUserRequest.decode(req.body);
 
