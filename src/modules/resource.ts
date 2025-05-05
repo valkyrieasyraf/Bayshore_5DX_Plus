@@ -137,5 +137,26 @@ export default class ResourceModule extends Module {
 			// Send the response to the client
             common.sendResponse(message, res);
 		})
+
+        // Ghost List
+        app.get('/resource/ghost_list', async (req, res) => {
+
+            console.log('ghost_list');
+
+            // TODO: Actual stuff here
+            // This is literally just bare-bones so the shit boots
+
+			// Response data
+            let msg = {
+				error: wmsrv.wm5.protobuf.ErrorCode.ERR_SUCCESS,
+                ghosts: null
+			};
+
+            // Encode the response
+			let message = wmsrv.wm5.protobuf.GhostList.encode(msg);
+
+			// Send the response to the client
+            common.sendResponse(message, res);
+		})
     }
 }

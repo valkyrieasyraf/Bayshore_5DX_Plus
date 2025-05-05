@@ -20,10 +20,18 @@ export default class TerminalModule extends Module {
             // Get the request body for the load terminal information request
             let body = wm.wm5.protobuf.LoadTerminalInformationRequest.decode(req.body);
 
+			// TODO: Add notices to config
+			let notice = (Config.getConfig().notices || []);
+			
+			// Create the notice window objects
+			let noticeWindows = notice.map(a => wm.wm5.protobuf.NoticeEntry.NOTICE_TEAM_JOINED);
+
 			// Response data
 			let msg = {
 				error: wm.wm5.protobuf.ErrorCode.ERR_SUCCESS,
-
+				noticeWindow: noticeWindows,
+				noticeWindowMessage: notice,
+				
 				maxiGoldReceivable: true,
 				prizeReceivable: true,
 				transferNotice: {
